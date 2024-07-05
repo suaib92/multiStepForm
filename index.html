@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://zoomquilt.org/');
+      background-size: cover;
+      background-position: center;
+    }
+
+    #root {
+      z-index: 1; /* Ensure content is above the background */
+      background-color: rgba(255, 255, 255, 0.8); /* Example: semi-transparent white background for readability */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Example: shadow effect */
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <!-- Your content here -->
+    <h1>Hello, Vite + React!</h1>
+    <p>This is your content.</p>
+  </div>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
